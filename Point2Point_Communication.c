@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <mpi.h>
 #include <string.h>
-//point2point
+
 int main(int argc, char **argv)
 {
-
     char message[256];
     int my_rank;
     MPI_Status status;
